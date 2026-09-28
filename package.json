@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/routelink",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Route digests and link fingerprints for local integrity checks.",
+  "bin": {
+    "routelink": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/routelink.git"
+  },
+  "homepage": "https://theworker02.github.io/routelink/",
+  "keywords": [
+    "route",
+    "link",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
